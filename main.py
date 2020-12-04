@@ -9,6 +9,7 @@ import os
 
 note = Tk()
 note.title('Shader Assistant')
+note.iconbitmap(".\\hand_128px.ico")
 # 初始大小显示以及定位位置，注意一定要使用x而非*
 note.geometry('800x600+200+200')
 
